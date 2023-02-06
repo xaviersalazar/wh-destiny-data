@@ -1,2263 +1,2261 @@
-{
-  "data": [
-    {
-      "name": "Vow of the Disciple",
-      "location": "Pyramid // Savathûn's Throne World",
-      "description": "The disciple beckons...",
-      "image": "https://www.bungie.net/img/destiny_content/pgcr/raid_nemesis.jpg",
-      "modes": [
-        {
-          "type": "Legend",
-          "recommendedLightLevel": "1520"
-        },
-        {
-          "type": "Master",
-          "recommendedLightLevel": "1590"
-        }
-      ],
-      "extraRewards": [
-        {
-          "title": "Master Specific Rewards",
-          "description": "Weapons dropped in Master are Adept variants"
-        },
-        {
-          "title": "Hidden Chests",
-          "description": "There are two hidden chests that award anything you've already acquired"
-        }
-      ],
-      "modifiers": [
-        {
-          "type": "Master",
-          "typeModifiers": [
+[
+  {
+    "name": "Vow of the Disciple",
+    "location": "Pyramid // Savathûn's Throne World",
+    "description": "The disciple beckons...",
+    "image": "https://www.bungie.net/img/destiny_content/pgcr/raid_nemesis.jpg",
+    "modes": [
+      {
+        "type": "Legend",
+        "recommendedLightLevel": "1520"
+      },
+      {
+        "type": "Master",
+        "recommendedLightLevel": "1590"
+      }
+    ],
+    "extraRewards": [
+      {
+        "title": "Master Specific Rewards",
+        "description": "Weapons dropped in Master are Adept variants"
+      },
+      {
+        "title": "Hidden Chests",
+        "description": "There are two hidden chests that award anything you've already acquired"
+      }
+    ],
+    "modifiers": [
+      {
+        "type": "Master",
+        "typeModifiers": [
+          {
+            "name": "Champion Foes",
+            "description": "You will face Overload and Unstoppable Champions. You must equip Anti-Overload and Anti-Unstoppable mods to your arms armor to defeat them",
+            "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5ac062f16c855a9638a91a7cab39bbd8.png"
+          },
+          {
+            "name": "Champions: Mob",
+            "description": "This mode contains additional Champions",
+            "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9955d70ff4eea2500e3972b30bbd62b.png"
+          },
+          {
+            "name": "Match Game",
+            "description": "Enemy shields are highly resistant to all unmatched elemental damage",
+            "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d9337bf6883df7dff9190cff413e6fde.png"
+          },
+          {
+            "name": "Chaff",
+            "description": "Radar is disabled",
+            "iconPath": "https://www.bungie.net/common/destiny2_content/icons/256f65f21e36787d0dc5088f0ad38bae.png"
+          }
+        ]
+      }
+    ],
+    "encounters": [
+      {
+        "title": "The Door",
+        "description": "Kill Savathûn's projection to open the door",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "The Boat",
+        "description": "Get to the Pyramid entrance. Kill the Knowledge Bearers to spawn crystals that give you Knowledge buffs and deposit those buffs at the boat. The boat will make a couples of stops on the way to the Pyramid, you'll need to do this each time",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "Acquisition",
+        "description": "Shoot all the symbols on the pillars correctly. Find the room with the symbol shown on each of the three pillars in the area. Kill the Glyphkeeper inside to spawn a symbol you'll need for the Obelisk. Do this x3 and shoot all three symbols on the Obelisk that has them all. You'll need to this x3 to continue",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
             {
-              "name": "Champion Foes",
-              "description": "You will face Overload and Unstoppable Champions. You must equip Anti-Overload and Anti-Unstoppable mods to your arms armor to defeat them",
-              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5ac062f16c855a9638a91a7cab39bbd8.png"
+              "name": "Submission",
+              "type": "Submachine Gun",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/73b18408206758527816b0a6641558a4.jpg"
             },
             {
-              "name": "Champions: Mob",
-              "description": "This mode contains additional Champions",
-              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9955d70ff4eea2500e3972b30bbd62b.png"
+              "name": "Catacylsmic",
+              "type": "Linear Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7af0c43a948f6632f33741e9efa7dc2a.jpg"
             },
             {
-              "name": "Match Game",
-              "description": "Enemy shields are highly resistant to all unmatched elemental damage",
-              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d9337bf6883df7dff9190cff413e6fde.png"
+              "name": "Deliverance",
+              "type": "Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fbc4873a0b51c8631a7ac111efcb409.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Resonant Fury Cowl",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/ce030f393d62bca2186ed51b7408c4b4.jpg"
+                },
+                {
+                  "name": "Resonant Fury Robes",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a949ed89b4b70005d73b10be39a15303.jpg"
+                },
+                {
+                  "name": "Resonant Fury Boots",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/3a34edbc0807941c48b061f22f977f03.jpg"
+                }
+              ]
             },
             {
-              "name": "Chaff",
-              "description": "Radar is disabled",
-              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/256f65f21e36787d0dc5088f0ad38bae.png"
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Resonant Fury Helm",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/914ba55cffb0bebca097027c326a5428.jpg"
+                },
+                {
+                  "name": "Resonant Fury Plate",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/80096ab15b075dd1afa3902fafb89b7f.jpg"
+                },
+                {
+                  "name": "Resonant Fury Greaves",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/475e70d843adca3d2859ae27ffc3b650.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Resonant Fury Mask",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d0ae08200487506b6f5591d03b12f809.jpg"
+                },
+                {
+                  "name": "Resonant Fury Vest",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/2b38bfcfe7a2af06a2b8940f4c0ee975.jpg"
+                },
+                {
+                  "name": "Resonant Fury Strides",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d7b2c11e21c4059de1996e087b09402a.jpg"
+                }
+              ]
             }
           ]
         }
-      ],
-      "encounters": [
-        {
-          "title": "The Door",
-          "description": "Kill Savathûn's projection to open the door",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "The Boat",
-          "description": "Get to the Pyramid entrance. Kill the Knowledge Bearers to spawn crystals that give you Knowledge buffs and deposit those buffs at the boat. The boat will make a couples of stops on the way to the Pyramid, you'll need to do this each time",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "Acquisition",
-          "description": "Shoot all the symbols on the pillars correctly. Find the room with the symbol shown on each of the three pillars in the area. Kill the Glyphkeeper inside to spawn a symbol you'll need for the Obelisk. Do this x3 and shoot all three symbols on the Obelisk that has them all. You'll need to this x3 to continue",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Submission",
-                "type": "Submachine Gun",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/73b18408206758527816b0a6641558a4.jpg"
-              },
-              {
-                "name": "Catacylsmic",
-                "type": "Linear Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7af0c43a948f6632f33741e9efa7dc2a.jpg"
-              },
-              {
-                "name": "Deliverance",
-                "type": "Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fbc4873a0b51c8631a7ac111efcb409.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Resonant Fury Cowl",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/ce030f393d62bca2186ed51b7408c4b4.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Robes",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a949ed89b4b70005d73b10be39a15303.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Boots",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/3a34edbc0807941c48b061f22f977f03.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Resonant Fury Helm",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/914ba55cffb0bebca097027c326a5428.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Plate",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/80096ab15b075dd1afa3902fafb89b7f.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Greaves",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/475e70d843adca3d2859ae27ffc3b650.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Resonant Fury Mask",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d0ae08200487506b6f5591d03b12f809.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Vest",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/2b38bfcfe7a2af06a2b8940f4c0ee975.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Strides",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d7b2c11e21c4059de1996e087b09402a.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "The Caretaker",
-          "description": "Defeat the Caretaker. Gather symbols in the room and shoot the corresponding ones on the Obelisk right outside of it while also stunning The Caretaker before he reaches the Obelisk. Once all the symbols are gathered and shot, damage phase will start. Do this each time for every level you progress onto",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Insidious",
-                "type": "Pulse Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4cee019ca54c38c54273f69d8483fa71.jpg"
-              },
-              {
-                "name": "Catacylsmic",
-                "type": "Linear Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7af0c43a948f6632f33741e9efa7dc2a.jpg"
-              },
-              {
-                "name": "Forbearance",
-                "type": "Grenade Launcher",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/18efb292b2267f6cb0f0a61eb9c46936.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Resonant Fury Gloves",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/026fccc6e47433b3e1d7ea186e73bf3f.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Bond",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c76e66c7b570794ff99b9823b742363.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Resonant Fury Gauntlets",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/1ab88f36ceeb62b79fc0c04340bd3e06.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Mark",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4dd040c57f8597bb0dd7aba13aa2c14b.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Resonant Fury Grips",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/825fd7a5e13ecd3c6b03d14b3ce74a3f.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Cloak",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/90caca2306fea85147cf0a6a20db507e.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Jumping Puzzle",
-          "description": "Make your way to the next encounter. Don't fall",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "Exhibition",
-          "description": "Fight your way to the end. Kill both the Taken and Scorn Glyphkeepers to reveal symbols you'll need to shoot at the door at the back of the area your in. Make sure to kill the Disciple's Hourglass Taken Knight to extend your time. Clear all three areas to advance.",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Submission",
-                "type": "Submachine Gun",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/73b18408206758527816b0a6641558a4.jpg"
-              },
-              {
-                "name": "Deliverance",
-                "type": "Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fbc4873a0b51c8631a7ac111efcb409.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Resonant Fury Cowl",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/ce030f393d62bca2186ed51b7408c4b4.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Robes",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a949ed89b4b70005d73b10be39a15303.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Boots",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/3a34edbc0807941c48b061f22f977f03.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Resonant Fury Helm",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/914ba55cffb0bebca097027c326a5428.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Plate",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/80096ab15b075dd1afa3902fafb89b7f.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Greaves",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/475e70d843adca3d2859ae27ffc3b650.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Resonant Fury Mask",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d0ae08200487506b6f5591d03b12f809.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Vest",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/2b38bfcfe7a2af06a2b8940f4c0ee975.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Strides",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d7b2c11e21c4059de1996e087b09402a.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Rhulk, Disciple of the Witness",
-          "description": "Kill Rhulk. Defeat each Glyphkeeper on both sides of the room to spawn the initial symbols. You will need the Leeching or Emanating Force buff and someone without it to see symbols on each side. Find the Obelisk with the symbol you need and use the Emanating Force to deposit it in that Obelisk; do this x6 times to move up to Rhulk. Shoot his glaive to reveal the symbol you need and deposit in the correct Obelisk with your Emanating Force, then shot his crit spot. Once all crit spots are shot, it's onto damage phase.",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Collective Obligation",
-                "type": "Pulse Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7c6068ee1ee2f3a4417fe6dd940d70e0.jpg",
-                "isExotic": true
-              },
-              {
-                "name": "Insidious",
-                "type": "Pulse Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4cee019ca54c38c54273f69d8483fa71.jpg"
-              },
-              {
-                "name": "Lubrae's Ruin",
-                "type": "Glaive",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/04e5de1f40036febf7b039036f3565f0.jpg"
-              },
-              {
-                "name": "Forbearance",
-                "type": "Grenade Launcher",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/18efb292b2267f6cb0f0a61eb9c46936.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Resonant Fury Gloves",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/026fccc6e47433b3e1d7ea186e73bf3f.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Bond",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c76e66c7b570794ff99b9823b742363.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Resonant Fury Gauntlets",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/1ab88f36ceeb62b79fc0c04340bd3e06.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Mark",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4dd040c57f8597bb0dd7aba13aa2c14b.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Resonant Fury Grips",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/825fd7a5e13ecd3c6b03d14b3ce74a3f.jpg"
-                  },
-                  {
-                    "name": "Resonant Fury Cloak",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/90caca2306fea85147cf0a6a20db507e.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Deep Stone Crypt",
-      "location": "Rathmore Chaos // Europa",
-      "description": "The chains of legacy must be broken",
-      "image": "https://www.bungie.net/img/destiny_content/pgcr/europa-raid-deep-stone-crypt.jpg",
-      "modes": [
-        {
-          "type": "Minimum",
-          "recommendedLightLevel": "1350"
-        }
-      ],
-      "extraRewards": [
-        {
-          "title": "Hidden Chests",
-          "description": "There are two hidden chests that award anything you've already acquired"
-        }
-      ],
-      "modifiers": [],
-      "encounters": [
-        {
-          "title": "Sparrow Run",
-          "description": "Sparrow your way thru to the end in which you'll find a door. Make sure to stop at the bubbles along the way so you get rid of the Frostbite debuff; x10 will kill you",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "Crypt Security",
-          "description": "Shoot the main fuses in each room in a specific order. The Operator will you allow you shoot the panels downstairs found by using the Scanner to see which panels need to be activated from upstairs in each room (Light & Dark). Doing this correctly will start damage phase and allow you to shoot the fuses",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Trustee",
-                "type": "Scout Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/3c02f8982f3f444a84a961572669213b.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Legacy's Oath Gloves",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a7092ad81df38b5dd568d4176cee3001.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Boots",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/434ddd1074f935e0a975ec8929efd8be.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Bond",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7cc19cbefc988499b0faac30ea1fd192.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Legacy's Oath Gauntlets",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/55947464ab5dc1974beec1c77d27ba56.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Greaves",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c02578408e785b7e48dd4bc8486b346f.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Bond",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/142e7b6946a3b29386931d5c613a5b9d.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Legacy's Oath Grips",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f4bac3f5c3a735dd0788539600fb6c04.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Strides",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f1fdb2cbbbebc0bdcc38c7b02c1f9b36.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Cloak",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1422e3664478a35b960bdb801001260.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Atraks-1, Fallen Exo",
-          "description": "Find the real Atraks-1 and destroy him. Use the Scanner to find which Atraks-1 copy is the real one after killing all the Servitors then use the Operator to reset the Replication debuff",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Succession",
-                "type": "Sniper Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f189251cfb9815df1f3f6063867d0957.jpg"
-              },
-              {
-                "name": "Heritage",
-                "type": "Shotgun",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7e321fd8d26495f18592cefb7b0ef2c1.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Legacy's Oath Gloves",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a7092ad81df38b5dd568d4176cee3001.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Boots",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/434ddd1074f935e0a975ec8929efd8be.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Bond",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7cc19cbefc988499b0faac30ea1fd192.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Legacy's Oath Gauntlets",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/55947464ab5dc1974beec1c77d27ba56.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Greaves",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c02578408e785b7e48dd4bc8486b346f.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Bond",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/142e7b6946a3b29386931d5c613a5b9d.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Legacy's Oath Grips",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f4bac3f5c3a735dd0788539600fb6c04.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Strides",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f1fdb2cbbbebc0bdcc38c7b02c1f9b36.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Cloak",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1422e3664478a35b960bdb801001260.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Disarmament",
-          "description": "Deposit the nuclear cores into the bins at the center. Find the correct bin with Scanner, shoot the glowing terminals to spawn the cores with Operator and stun Taniks with Suppressor so you can deposit the cores. Rinse and repeat and watch for Overload champions",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Posterity",
-                "type": "Hand Cannon",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/3f64f4d5f3bdc0ffb611cd286a3d2eca.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Legacy's Oath Robes",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/85f137bae3a189adba1804a35163f03d.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Gloves",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a7092ad81df38b5dd568d4176cee3001.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Bond",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7cc19cbefc988499b0faac30ea1fd192.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Legacy's Oath Plate",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/314fa9a5665837c8526c36f88cb5fa46.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Gauntlets",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/55947464ab5dc1974beec1c77d27ba56.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Bond",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/142e7b6946a3b29386931d5c613a5b9d.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Legacy's Oath Vest",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c4e0eae70bb7c6775cebab35f54a9ac0.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Grips",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f4bac3f5c3a735dd0788539600fb6c04.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Cloak",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1422e3664478a35b960bdb801001260.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Taniks, The Abomination",
-          "description": "Defeat Taniks. Similar to the previous encounter, deposit the cores by damaging Taniks' thrusters and use the Scanner to find which bins to deposit them in. Operator will shoot orbs that spawn on the core carries and Suppressor will stun Taniks. After 4 cores are deposited, you'll start damage phase",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Eyes of Tomorrow",
-                "type": "Rocket Launcher",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7ae4b38a1ad247c4a7caffcd6e0a6ed9.jpg",
-                "isExotic": true
-              },
-              {
-                "name": "Bequest",
-                "type": "Sword",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a6a4f6970542dc24ac63d3865a411f99.jpg"
-              },
-              {
-                "name": "Commemoration",
-                "type": "Machine Gun",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/1958a28427a750026512a88a9b4e4d3a.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Legacy's Oath Cowl",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/248bf0e191d20cee551a01eca164acb9.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Robes",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/85f137bae3a189adba1804a35163f03d.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Boots",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/434ddd1074f935e0a975ec8929efd8be.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Legacy's Oath Helm",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e5518d838db6e1c2285940fa6d0fbdad.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Plate",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/314fa9a5665837c8526c36f88cb5fa46.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Greaves",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c02578408e785b7e48dd4bc8486b346f.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Legacy's Oath Mask",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/564ba41bb31386b279868af693a2f91d.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Vest",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c4e0eae70bb7c6775cebab35f54a9ac0.jpg"
-                  },
-                  {
-                    "name": "Legacy's Oath Strides",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f1fdb2cbbbebc0bdcc38c7b02c1f9b36.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Vault of Glass",
-      "location": "Ishtar Sink // Venus",
-      "description": "Beneath Venus, evil stirs...",
-      "image": "https://www.bungie.net/img/destiny_content/pgcr/vault_of_glass.jpg",
-      "modes": [
-        {
-          "type": "Minimum",
-          "recommendedLightLevel": "1350"
-        }
-      ],
-      "extraRewards": [
-        {
-          "title": "Challenge Rewards",
-          "description": "Completing the weekly challenge will award you the Timelost variant of the weapon for that week"
-        },
-        {
-          "title": "Hidden Chests",
-          "description": "There are four hidden chests that award anything you've already acquired"
-        }
-      ],
-      "modifiers": [
-        {
-          "type": "Master",
-          "typeModifiers": [
+      },
+      {
+        "title": "The Caretaker",
+        "description": "Defeat the Caretaker. Gather symbols in the room and shoot the corresponding ones on the Obelisk right outside of it while also stunning The Caretaker before he reaches the Obelisk. Once all the symbols are gathered and shot, damage phase will start. Do this each time for every level you progress onto",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
             {
-              "name": "Champion Foes",
-              "description": "You will face Barrier and Overload Champions. You must equip Anti-Barrier and Anti-Overload mods to your arms armor to defeat them",
-              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/13a6cd6b01da71468f38c79c9534ad83.png"
+              "name": "Insidious",
+              "type": "Pulse Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4cee019ca54c38c54273f69d8483fa71.jpg"
             },
             {
-              "name": "Champions: Mob",
-              "description": "This mode contains additional Champions",
-              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9955d70ff4eea2500e3972b30bbd62b.png"
+              "name": "Catacylsmic",
+              "type": "Linear Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7af0c43a948f6632f33741e9efa7dc2a.jpg"
             },
             {
-              "name": "Match Game",
-              "description": "Enemy shields are highly resistant to all unmatched elemental damage",
-              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d9337bf6883df7dff9190cff413e6fde.png"
+              "name": "Forbearance",
+              "type": "Grenade Launcher",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/18efb292b2267f6cb0f0a61eb9c46936.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Resonant Fury Gloves",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/026fccc6e47433b3e1d7ea186e73bf3f.jpg"
+                },
+                {
+                  "name": "Resonant Fury Bond",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c76e66c7b570794ff99b9823b742363.jpg"
+                }
+              ]
             },
             {
-              "name": "Chaff",
-              "description": "Radar is disabled",
-              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/256f65f21e36787d0dc5088f0ad38bae.png"
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Resonant Fury Gauntlets",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/1ab88f36ceeb62b79fc0c04340bd3e06.jpg"
+                },
+                {
+                  "name": "Resonant Fury Mark",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4dd040c57f8597bb0dd7aba13aa2c14b.jpg"
+                }
+              ]
             },
             {
-              "name": "Air Superiority",
-              "description": "Flying units do increased damage",
-              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/97124ab55e4774210c8d53be9928f93f.png"
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Resonant Fury Grips",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/825fd7a5e13ecd3c6b03d14b3ce74a3f.jpg"
+                },
+                {
+                  "name": "Resonant Fury Cloak",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/90caca2306fea85147cf0a6a20db507e.jpg"
+                }
+              ]
             }
           ]
         }
-      ],
-      "encounters": [
-        {
-          "title": "Open the Vault",
-          "description": "Open the door to the Vault of Glass. Hold each of the three plates while defeating enemies before they reach them until the door opens",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "Jumping Puzzle",
-          "description": "Work your way down to the next encounter",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "Confluxes",
-          "description": "Defend the Confluxes. Kill all the enemies before they reach them and sacrifice themselves to the confluxes. You'll have three waves of encounters with 1, then 2, and then lastly 3 confluxes to defend",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Vision of Confluence",
-                "type": "Scout Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4cce87fa4cf87557b85b309ab076e683.jpg"
-              },
-              {
-                "name": "Found Verdict",
-                "type": "Shotgun",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6c7e59b0e5c6b90e025dc678dd797b43.jpg"
-              },
-              {
-                "name": "Corrective Measure",
-                "type": "Machine Gun",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/66779d36157e9e39a27c13da065845d8.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Gloves of the Hezen Lords",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/48fd0d650c30ba3df5871f2550b3e678.jpg"
-                  },
-                  {
-                    "name": "Fragment of the Prime",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/3780d3badf5caa1790df838db9740920.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Kabr's Brazen Grips",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0b3842f117af58e85220028159018c01.jpg"
-                  },
-                  {
-                    "name": "Light of the Great Prism",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6d0fb19c57a0ad6fe6ef97ff454e8a70.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Prime Zealot Gloves",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b10433e277d029a3be1da9eca035939d.jpg"
-                  },
-                  {
-                    "name": "Shattered Vault Cloak",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/80ce9b3571dd73d1149bf1ce6cfc6d4a.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Oracles",
-          "description": "Destroy the oracles. The oracles will spawn twice around the area in a certain order. The first time they spawn will be to denote the order they spawn in, then the second time is to destroy them in that exact order. You'll have five waves here first with 3 oracles, then 4, then 5, then 6, and finally 7",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Vision of Confluence",
-                "type": "Scout Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4cce87fa4cf87557b85b309ab076e683.jpg"
-              },
-              {
-                "name": "Found Verdict",
-                "type": "Shotgun",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6c7e59b0e5c6b90e025dc678dd797b43.jpg"
-              },
-              {
-                "name": "Praedyth's Revenge",
-                "type": "Sniper Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/8597b717d15cf9a7e8d3d426310d72fa.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Gloves of the Hezen Lords",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/48fd0d650c30ba3df5871f2550b3e678.jpg"
-                  },
-                  {
-                    "name": "Tread of the Hezen Lords",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1852ebee22d3f9c5860458b52204b22.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Kabr's Brazen Grips",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0b3842f117af58e85220028159018c01.jpg"
-                  },
-                  {
-                    "name": "Kabr's Forceful Greaves",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7f6f8cf7c0ad53472b5f948c84505ffb.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Prime Zealot Gloves",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b10433e277d029a3be1da9eca035939d.jpg"
-                  },
-                  {
-                    "name": "Prime Zealot Strides",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/9523a4de3f47699dada6c4d40e3a04ba.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Templar",
-          "description": "Kill the Templar. Destory the oracles in the correct order they spawn in at, then you take down the Templar's shield with the Relic to begin damage. He'll relocate and spawn somewhere else around the area which can be blocked by standing in the ring he is about to spawn at. If you do not get there in time, you'll have to repeat the process to start dealing damage again",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Vision of Confluence",
-                "type": "Scout Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4cce87fa4cf87557b85b309ab076e683.jpg"
-              },
-              {
-                "name": "Fatebringer",
-                "type": "Hand Cannon",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5283e5bc7bc82b376cfe910b50caa996.jpg"
-              },
-              {
-                "name": "Corrective Measure",
-                "type": "Machine Gun",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/66779d36157e9e39a27c13da065845d8.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Gloves of the Hezen Lords",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/48fd0d650c30ba3df5871f2550b3e678.jpg"
-                  },
-                  {
-                    "name": "Cuirass Hezen Lords",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/9d95e0f1c3bdb1b9e248b80b1e263dec.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Kabr's Brazen Grips",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0b3842f117af58e85220028159018c01.jpg"
-                  },
-                  {
-                    "name": "Kabr's Forceful Greaves",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7b14ea1c5f3c318c3b9e9464f98b7c7c.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Prime Zealot Gloves",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b10433e277d029a3be1da9eca035939d.jpg"
-                  },
-                  {
-                    "name": "Prime Zealot Cuirass",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/87f12e5741ef5cfb1f5af76e3869ba29.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Gorgon's Labyrinth",
-          "description": "Get passed the Gorgon's without being spotted. If you get spotted, they will enrage and wipe the team",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "Another Jumping Puzzle",
-          "description": "Platform your way to the final encounter",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "Gatekeeper",
-          "description": "Defened the pillars. Open the portals by standing on the plates. Once they're open, prevent the Vex from sacrificing themselves to the pillars inside each of the portals. You'll need the Relic to remove the Praetorian's shield and defeat them. Keep doing this until a conflux spawns in the center of the area and then continue to defend it",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Found Verdict",
-                "type": "Shotgun",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6c7e59b0e5c6b90e025dc678dd797b43.jpg"
-              },
-              {
-                "name": "Fatebringer",
-                "type": "Hand Cannon",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5283e5bc7bc82b376cfe910b50caa996.jpg"
-              },
-              {
-                "name": "Hezen Vengeance",
-                "type": "Rocket Launcher",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/8606ba12832e76ed4fdf438b06ce9865.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Facade of the Hezen Lords",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/07113b0be5a0060d2ff2af9fcfe79c78.jpg"
-                  },
-                  {
-                    "name": "Tread of the Hezen Lords",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1852ebee22d3f9c5860458b52204b22.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Kabr's Battlecage",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c77d5d00f5d8df13c870bd6d47a801a4.jpg"
-                  },
-                  {
-                    "name": "Kabr's Forceful Greaves",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7f6f8cf7c0ad53472b5f948c84505ffb.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Prime Zealot Mask",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6c9ed2a1cfff85c5b215d52e1e5f2d04.jpg"
-                  },
-                  {
-                    "name": "Prime Zealot Strides",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/9523a4de3f47699dada6c4d40e3a04ba.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Atheon, Time's Conflux",
-          "description": "Defeat Atheon. Three players randomly will be teleported to another area, and the others will stay in the main area. The players in the main area must open the portal to where the others are. The ones who were teleported must shoot the oracles in the order the players in the main area see them at. Once thats done correclty three times, the portal will open and the players who were teleported can come back to the main area and start damage on Atheon",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Vex Mythoclast",
-                "type": "Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/197c07b3ecad29aadf67c1c06bf0b0be.jpg",
-                "isExotic": true
-              },
-              {
-                "name": "Praedyth's Revenge",
-                "type": "Sniper Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/8597b717d15cf9a7e8d3d426310d72fa.jpg"
-              },
-              {
-                "name": "Corrective Measure",
-                "type": "Machine Gun",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/66779d36157e9e39a27c13da065845d8.jpg"
-              },
-              {
-                "name": "Hezen Vengeance",
-                "type": "Rocket Launcher",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/8606ba12832e76ed4fdf438b06ce9865.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Facade of the Hezen Lords",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/07113b0be5a0060d2ff2af9fcfe79c78.jpg"
-                  },
-                  {
-                    "name": "Cuirass Hezen Lords",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/9d95e0f1c3bdb1b9e248b80b1e263dec.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Kabr's Battlecage",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c77d5d00f5d8df13c870bd6d47a801a4.jpg"
-                  },
-                  {
-                    "name": "Kabr's Forceful Greaves",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7b14ea1c5f3c318c3b9e9464f98b7c7c.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Prime Zealot Mask",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6c9ed2a1cfff85c5b215d52e1e5f2d04.jpg"
-                  },
-                  {
-                    "name": "Prime Zealot Cuirass",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/87f12e5741ef5cfb1f5af76e3869ba29.jpg"
-                  }
-                ]
-              }
-            ]
-          }
+      },
+      {
+        "title": "Jumping Puzzle",
+        "description": "Make your way to the next encounter. Don't fall",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "Exhibition",
+        "description": "Fight your way to the end. Kill both the Taken and Scorn Glyphkeepers to reveal symbols you'll need to shoot at the door at the back of the area your in. Make sure to kill the Disciple's Hourglass Taken Knight to extend your time. Clear all three areas to advance.",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Submission",
+              "type": "Submachine Gun",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/73b18408206758527816b0a6641558a4.jpg"
+            },
+            {
+              "name": "Deliverance",
+              "type": "Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fbc4873a0b51c8631a7ac111efcb409.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Resonant Fury Cowl",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/ce030f393d62bca2186ed51b7408c4b4.jpg"
+                },
+                {
+                  "name": "Resonant Fury Robes",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a949ed89b4b70005d73b10be39a15303.jpg"
+                },
+                {
+                  "name": "Resonant Fury Boots",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/3a34edbc0807941c48b061f22f977f03.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Resonant Fury Helm",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/914ba55cffb0bebca097027c326a5428.jpg"
+                },
+                {
+                  "name": "Resonant Fury Plate",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/80096ab15b075dd1afa3902fafb89b7f.jpg"
+                },
+                {
+                  "name": "Resonant Fury Greaves",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/475e70d843adca3d2859ae27ffc3b650.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Resonant Fury Mask",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d0ae08200487506b6f5591d03b12f809.jpg"
+                },
+                {
+                  "name": "Resonant Fury Vest",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/2b38bfcfe7a2af06a2b8940f4c0ee975.jpg"
+                },
+                {
+                  "name": "Resonant Fury Strides",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d7b2c11e21c4059de1996e087b09402a.jpg"
+                }
+              ]
+            }
+          ]
         }
-      ]
-    },
-    {
-      "name": "Garden of Salvation",
-      "location": "Black Garden // The Moon",
-      "description": "The Garden calls out to you",
-      "image": "https://www.bungie.net/img/destiny_content/pgcr/raid_garden_of_salvation.jpg",
-      "modes": [
-        {
-          "type": "Minimum",
-          "recommendedLightLevel": "1350"
+      },
+      {
+        "title": "Rhulk, Disciple of the Witness",
+        "description": "Kill Rhulk. Defeat each Glyphkeeper on both sides of the room to spawn the initial symbols. You will need the Leeching or Emanating Force buff and someone without it to see symbols on each side. Find the Obelisk with the symbol you need and use the Emanating Force to deposit it in that Obelisk; do this x6 times to move up to Rhulk. Shoot his glaive to reveal the symbol you need and deposit in the correct Obelisk with your Emanating Force, then shot his crit spot. Once all crit spots are shot, it's onto damage phase.",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Collective Obligation",
+              "type": "Pulse Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7c6068ee1ee2f3a4417fe6dd940d70e0.jpg",
+              "isExotic": true
+            },
+            {
+              "name": "Insidious",
+              "type": "Pulse Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4cee019ca54c38c54273f69d8483fa71.jpg"
+            },
+            {
+              "name": "Lubrae's Ruin",
+              "type": "Glaive",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/04e5de1f40036febf7b039036f3565f0.jpg"
+            },
+            {
+              "name": "Forbearance",
+              "type": "Grenade Launcher",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/18efb292b2267f6cb0f0a61eb9c46936.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Resonant Fury Gloves",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/026fccc6e47433b3e1d7ea186e73bf3f.jpg"
+                },
+                {
+                  "name": "Resonant Fury Bond",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c76e66c7b570794ff99b9823b742363.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Resonant Fury Gauntlets",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/1ab88f36ceeb62b79fc0c04340bd3e06.jpg"
+                },
+                {
+                  "name": "Resonant Fury Mark",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4dd040c57f8597bb0dd7aba13aa2c14b.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Resonant Fury Grips",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/825fd7a5e13ecd3c6b03d14b3ce74a3f.jpg"
+                },
+                {
+                  "name": "Resonant Fury Cloak",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/90caca2306fea85147cf0a6a20db507e.jpg"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "extraRewards": [
-        {
-          "title": "Hidden Chests",
-          "description": "There are two hidden chests that award anything you've already acquired"
+      }
+    ]
+  },
+  {
+    "name": "Deep Stone Crypt",
+    "location": "Rathmore Chaos // Europa",
+    "description": "The chains of legacy must be broken",
+    "image": "https://www.bungie.net/img/destiny_content/pgcr/europa-raid-deep-stone-crypt.jpg",
+    "modes": [
+      {
+        "type": "Minimum",
+        "recommendedLightLevel": "1350"
+      }
+    ],
+    "extraRewards": [
+      {
+        "title": "Hidden Chests",
+        "description": "There are two hidden chests that award anything you've already acquired"
+      }
+    ],
+    "modifiers": [],
+    "encounters": [
+      {
+        "title": "Sparrow Run",
+        "description": "Sparrow your way thru to the end in which you'll find a door. Make sure to stop at the bubbles along the way so you get rid of the Frostbite debuff; x10 will kill you",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "Crypt Security",
+        "description": "Shoot the main fuses in each room in a specific order. The Operator will you allow you shoot the panels downstairs found by using the Scanner to see which panels need to be activated from upstairs in each room (Light & Dark). Doing this correctly will start damage phase and allow you to shoot the fuses",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Trustee",
+              "type": "Scout Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/3c02f8982f3f444a84a961572669213b.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Legacy's Oath Gloves",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a7092ad81df38b5dd568d4176cee3001.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Boots",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/434ddd1074f935e0a975ec8929efd8be.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Bond",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7cc19cbefc988499b0faac30ea1fd192.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Legacy's Oath Gauntlets",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/55947464ab5dc1974beec1c77d27ba56.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Greaves",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c02578408e785b7e48dd4bc8486b346f.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Bond",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/142e7b6946a3b29386931d5c613a5b9d.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Legacy's Oath Grips",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f4bac3f5c3a735dd0788539600fb6c04.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Strides",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f1fdb2cbbbebc0bdcc38c7b02c1f9b36.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Cloak",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1422e3664478a35b960bdb801001260.jpg"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "modifiers": [],
-      "encounters": [
-        {
-          "title": "Evade the Consecrated Mind",
-          "description": "Evade the boss. Gather Voltaic Overflow from the boss as it moves from one area to the next by tethering from the pillars to the shields while also killing the Angelic's to open the next area. The last area will be filled with ads so full sprint to the end",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Accrued Redemption",
-                "type": "Bow",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a20262c1f729ffdb8ef59bf503c02f6a.jpg"
-              },
-              {
-                "name": "Zealot's Reward",
-                "type": "Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/250326e52cc19d03f85ffe0ac3a63d9b.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Boots of Ascendency",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1adeae870b221096ea74ede8820b222.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Greaves of Ascendency",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/27a1c6593cddbddfb44b4b0812445d42.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Strides of Ascendency",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/36180ed4aa52f3c13907aa62f0a289cf.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Platforming Puzzle",
-          "description": "Jump and jump your way to the next encounter",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "Summon the Consecrated Mind",
-          "description": "Defend the bases. Kill the Angelic enemies and the other enemies around each base while tethering from the pillars to the center shields to slowly bring them down. You'll need the Enlightened buff to damage the shielded enemies. Keep this going until you advance to the next encounter",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Reckless Oracle",
-                "type": "Auto Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/3463e49cd7e8f56c31512f0ba0f2ba91.jpg"
-              },
-              {
-                "name": "Prophet of Doom",
-                "type": "Shotgun",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/03d4185893475ad7f69cdb4252aff5ef.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Gloves of Exaltation",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a271d46cdc7212e9dc9fc4fe4cb1733c.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Gauntlets of Exaltation",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a252de109c290d401fc8c0e46a9e6fcc.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Strides of Exaltation",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e202e8cb1f78b6222783440763e12c60.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Defeat the Consecrated Mind",
-          "description": "Kill the Consecrated Mind. Follow the boss around to pick up the square it drops and shoot out the eyes that are lit up on it. Simultaneously defeat the Minotaurs to gather the motes they drop. Deposit those motes into one of the pillars that are lit up, then it's onto damage phase",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Sacred Provenance",
-                "type": "Pulse Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c6b1cf3919435d81d2e230add1debe7a.jpg"
-              },
-              {
-                "name": "Ancient Gospel",
-                "type": "Hand Cannon",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6c6f1619bd19789403a7a7070ba271f2.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Robes of Transcendence",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f00a32c5f7a0b4f98e118af525ad8cce.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Plate of Transcendence",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/80757085144f2fb69d1c7d3b6900f9ff.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Vest of Transcendence",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f13edfeaef41dc02bf22e214eca137b4.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Another Platforming Puzzle",
-          "description": "Yet another platforming route to the last encounter",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "Defeat the Sanctified Mind",
-          "description": "Kill the Sanctified Mind. Collect motes from each portal that spawns in (orange and blue) by killing the enemies in that area you get transported to. Deposit those motes into the pillars in the main area while also defending the pillars from enemies. After you've gathered 30 motes on each pillar, you can tether them to the boss and start damage",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "Omniscient Eye",
-                "type": "Sniper Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/da40a396cc79b31aa1d8898ac3bedde1.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Mask of Righteousness",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b1a0af1b3b767013ca90fe5a9b78eac4.jpg"
-                  },
-                  {
-                    "name": "Temptation's Bond",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5bd83a99e11b523cca8d711ca654c6fe.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Helm of Righteousness",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/bc73734e3f7758941d65a22cdb4f886d.jpg"
-                  },
-                  {
-                    "name": "Temptation's Mark",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5aea62cc312644bccd8f6eb0e605f7c3.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Cowl of Righteousness",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6af5abdb33799f0e4607b97b9d0741ec.jpg"
-                  },
-                  {
-                    "name": "Cloak of Temptation",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a1feb2d4126a6cdfeb81eb6c206d28a9.jpg"
-                  }
-                ]
-              }
-            ]
-          }
+      },
+      {
+        "title": "Atraks-1, Fallen Exo",
+        "description": "Find the real Atraks-1 and destroy him. Use the Scanner to find which Atraks-1 copy is the real one after killing all the Servitors then use the Operator to reset the Replication debuff",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Succession",
+              "type": "Sniper Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f189251cfb9815df1f3f6063867d0957.jpg"
+            },
+            {
+              "name": "Heritage",
+              "type": "Shotgun",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7e321fd8d26495f18592cefb7b0ef2c1.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Legacy's Oath Gloves",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a7092ad81df38b5dd568d4176cee3001.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Boots",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/434ddd1074f935e0a975ec8929efd8be.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Bond",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7cc19cbefc988499b0faac30ea1fd192.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Legacy's Oath Gauntlets",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/55947464ab5dc1974beec1c77d27ba56.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Greaves",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c02578408e785b7e48dd4bc8486b346f.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Bond",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/142e7b6946a3b29386931d5c613a5b9d.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Legacy's Oath Grips",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f4bac3f5c3a735dd0788539600fb6c04.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Strides",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f1fdb2cbbbebc0bdcc38c7b02c1f9b36.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Cloak",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1422e3664478a35b960bdb801001260.jpg"
+                }
+              ]
+            }
+          ]
         }
-      ]
-    },
-    {
-      "name": "Last Wish",
-      "location": "Reef // The Dreaming City",
-      "description": "The opportunity of a lifetime",
-      "image": "https://www.bungie.net/img/destiny_content/pgcr/raid_beanstalk.jpg",
-      "modes": [
-        {
-          "type": "Minimum",
-          "recommendedLightLevel": "1350"
+      },
+      {
+        "title": "Disarmament",
+        "description": "Deposit the nuclear cores into the bins at the center. Find the correct bin with Scanner, shoot the glowing terminals to spawn the cores with Operator and stun Taniks with Suppressor so you can deposit the cores. Rinse and repeat and watch for Overload champions",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Posterity",
+              "type": "Hand Cannon",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/3f64f4d5f3bdc0ffb611cd286a3d2eca.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Legacy's Oath Robes",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/85f137bae3a189adba1804a35163f03d.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Gloves",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a7092ad81df38b5dd568d4176cee3001.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Bond",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7cc19cbefc988499b0faac30ea1fd192.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Legacy's Oath Plate",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/314fa9a5665837c8526c36f88cb5fa46.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Gauntlets",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/55947464ab5dc1974beec1c77d27ba56.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Bond",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/142e7b6946a3b29386931d5c613a5b9d.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Legacy's Oath Vest",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c4e0eae70bb7c6775cebab35f54a9ac0.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Grips",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f4bac3f5c3a735dd0788539600fb6c04.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Cloak",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1422e3664478a35b960bdb801001260.jpg"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "extraRewards": [
-        {
-          "title": "Hidden Chests",
-          "description": "There are four hidden chests that awards random gear"
+      },
+      {
+        "title": "Taniks, The Abomination",
+        "description": "Defeat Taniks. Similar to the previous encounter, deposit the cores by damaging Taniks' thrusters and use the Scanner to find which bins to deposit them in. Operator will shoot orbs that spawn on the core carries and Suppressor will stun Taniks. After 4 cores are deposited, you'll start damage phase",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Eyes of Tomorrow",
+              "type": "Rocket Launcher",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7ae4b38a1ad247c4a7caffcd6e0a6ed9.jpg",
+              "isExotic": true
+            },
+            {
+              "name": "Bequest",
+              "type": "Sword",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a6a4f6970542dc24ac63d3865a411f99.jpg"
+            },
+            {
+              "name": "Commemoration",
+              "type": "Machine Gun",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/1958a28427a750026512a88a9b4e4d3a.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Legacy's Oath Cowl",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/248bf0e191d20cee551a01eca164acb9.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Robes",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/85f137bae3a189adba1804a35163f03d.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Boots",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/434ddd1074f935e0a975ec8929efd8be.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Legacy's Oath Helm",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e5518d838db6e1c2285940fa6d0fbdad.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Plate",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/314fa9a5665837c8526c36f88cb5fa46.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Greaves",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c02578408e785b7e48dd4bc8486b346f.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Legacy's Oath Mask",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/564ba41bb31386b279868af693a2f91d.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Vest",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c4e0eae70bb7c6775cebab35f54a9ac0.jpg"
+                },
+                {
+                  "name": "Legacy's Oath Strides",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f1fdb2cbbbebc0bdcc38c7b02c1f9b36.jpg"
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "modifiers": [],
-      "encounters": [
-        {
-          "title": "Jumping Puzzle",
-          "description": "Find your way to the first encounter",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "Kalli, The Corrupted",
-          "description": "Defeat Kalli. Find the plates around the room with symbols that match the ones located in the center. Standing on the plate for a small amount of time will spawna Knight that will need to be defeated. Once all the plates are cleared, return to the center to deal damage to Kalli. Hide in the rooms in the sunken area to avoid Kalli's wipe mechanic. Rinse and repeat",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "The Supremacy",
-                "type": "Sniper Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/352aeb7d50265f45109145531376a026.jpg"
-              },
-              {
-                "name": "Techeun Force",
-                "type": "Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a134d02024d456f77ac7d7aa706efd5d.jpg"
-              },
-              {
-                "name": "Nation of Beasts",
-                "type": "Hand Cannon",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c1c0a3fe84fb29035ef5b2646a22524.jpg"
-              },
-              {
-                "name": "Chattering Bone",
-                "type": "Pulse Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1e8c9b33875a0ff693f421322ddd351.jpg"
-              },
-              {
-                "name": "Transfiguration",
-                "type": "Scout Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fe9577ebda2acce6f71dd2ec7c6b181.jpg"
-              },
-              {
-                "name": "Age-Old Bond",
-                "type": "Auto Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/50b14cd27896db21c70efd7016e2ee73.jpg"
-              },
-              {
-                "name": "Tyranny of Heaven",
-                "type": "Bow",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e54c45d7a77c3fce2b0512fbdf334889.jpg"
-              },
-              {
-                "name": "Apex Predator",
-                "type": "Rocket Launcher",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c5acac3b019d28df78741ca29939d942.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Hood of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b70e19e236a3cfd0fc762be6f2d226d9.jpg"
-                  },
-                  {
-                    "name": "Gloves of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b08bfd901f9c788446d67ec4607d3e32.jpg"
-                  },
-                  {
-                    "name": "Robes of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/25e8f12ce9b0af46729f9fffab61354e.jpg"
-                  },
-                  {
-                    "name": "Boots of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/12c245ed68e4e54cc2a32068841af991.jpg"
-                  },
-                  {
-                    "name": "Bond of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c08626452bfa9dea97bc034fd866b5c1.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Helm of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c9ff2846a1474f315305e4f9bc413b2e.jpg"
-                  },
-                  {
-                    "name": "Gauntlets of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d26046beae521b3ee4770e84a02a7cd8.jpg"
-                  },
-                  {
-                    "name": "Plate of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c55215a17b3a589238efcd36d0dd6d17.jpg"
-                  },
-                  {
-                    "name": "Greaves of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d697712aa95cfabb17706f61d8f2ae53.jpg"
-                  },
-                  {
-                    "name": "Mark of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7609813b2fdfd2754085a42d6edf7e01.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Mask of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a4e1244f32dec96664704b7e5453afca.jpg"
-                  },
-                  {
-                    "name": "Grips of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9b6d1130c9e9fe72a3892777bacbdf5.jpg"
-                  },
-                  {
-                    "name": "Vest of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/70e11b43f60a50f76263259a5568a723.jpg"
-                  },
-                  {
-                    "name": "Strides of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a990d4b2cc05d6a3e70642051058cb71.jpg"
-                  },
-                  {
-                    "name": "Cloak of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/bbd4b87914cf175225601344d9ff96db.jpg"
-                  }
-                ]
-              }
-            ]
+      }
+    ]
+  },
+  {
+    "name": "Vault of Glass",
+    "location": "Ishtar Sink // Venus",
+    "description": "Beneath Venus, evil stirs...",
+    "image": "https://www.bungie.net/img/destiny_content/pgcr/vault_of_glass.jpg",
+    "modes": [
+      {
+        "type": "Minimum",
+        "recommendedLightLevel": "1350"
+      }
+    ],
+    "extraRewards": [
+      {
+        "title": "Challenge Rewards",
+        "description": "Completing the weekly challenge will award you the Timelost variant of the weapon for that week"
+      },
+      {
+        "title": "Hidden Chests",
+        "description": "There are four hidden chests that award anything you've already acquired"
+      }
+    ],
+    "modifiers": [
+      {
+        "type": "Master",
+        "typeModifiers": [
+          {
+            "name": "Champion Foes",
+            "description": "You will face Barrier and Overload Champions. You must equip Anti-Barrier and Anti-Overload mods to your arms armor to defeat them",
+            "iconPath": "https://www.bungie.net/common/destiny2_content/icons/13a6cd6b01da71468f38c79c9534ad83.png"
+          },
+          {
+            "name": "Champions: Mob",
+            "description": "This mode contains additional Champions",
+            "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9955d70ff4eea2500e3972b30bbd62b.png"
+          },
+          {
+            "name": "Match Game",
+            "description": "Enemy shields are highly resistant to all unmatched elemental damage",
+            "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d9337bf6883df7dff9190cff413e6fde.png"
+          },
+          {
+            "name": "Chaff",
+            "description": "Radar is disabled",
+            "iconPath": "https://www.bungie.net/common/destiny2_content/icons/256f65f21e36787d0dc5088f0ad38bae.png"
+          },
+          {
+            "name": "Air Superiority",
+            "description": "Flying units do increased damage",
+            "iconPath": "https://www.bungie.net/common/destiny2_content/icons/97124ab55e4774210c8d53be9928f93f.png"
           }
-        },
-        {
-          "title": "Another Jumping Puzzle",
-          "description": "Jump your way to the next fight",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "Shuro Chi, The Corrupted",
-          "description": "Defeat Shuro Chi. Defeat the ads leading up to Shuro Chi, collect the Eye of Riven, then stand on each of the plates around Shuro Chi and use the Eye of Riven to link everyone together to remove her shields; you can then start damaging her. Continue following Shuro Chi to the next area she spawns at the repeat the process. You'll also run into a puzzle room where players will need to stand on the corresponding plates that match the incomplete pieces of the symbol in the room",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "The Supremacy",
-                "type": "Sniper Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/352aeb7d50265f45109145531376a026.jpg"
-              },
-              {
-                "name": "Techeun Force",
-                "type": "Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a134d02024d456f77ac7d7aa706efd5d.jpg"
-              },
-              {
-                "name": "Nation of Beasts",
-                "type": "Hand Cannon",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c1c0a3fe84fb29035ef5b2646a22524.jpg"
-              },
-              {
-                "name": "Chattering Bone",
-                "type": "Pulse Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1e8c9b33875a0ff693f421322ddd351.jpg"
-              },
-              {
-                "name": "Transfiguration",
-                "type": "Scout Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fe9577ebda2acce6f71dd2ec7c6b181.jpg"
-              },
-              {
-                "name": "Age-Old Bond",
-                "type": "Auto Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/50b14cd27896db21c70efd7016e2ee73.jpg"
-              },
-              {
-                "name": "Tyranny of Heaven",
-                "type": "Bow",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e54c45d7a77c3fce2b0512fbdf334889.jpg"
-              },
-              {
-                "name": "Apex Predator",
-                "type": "Rocket Launcher",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c5acac3b019d28df78741ca29939d942.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Hood of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b70e19e236a3cfd0fc762be6f2d226d9.jpg"
-                  },
-                  {
-                    "name": "Gloves of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b08bfd901f9c788446d67ec4607d3e32.jpg"
-                  },
-                  {
-                    "name": "Robes of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/25e8f12ce9b0af46729f9fffab61354e.jpg"
-                  },
-                  {
-                    "name": "Boots of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/12c245ed68e4e54cc2a32068841af991.jpg"
-                  },
-                  {
-                    "name": "Bond of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c08626452bfa9dea97bc034fd866b5c1.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Helm of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c9ff2846a1474f315305e4f9bc413b2e.jpg"
-                  },
-                  {
-                    "name": "Gauntlets of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d26046beae521b3ee4770e84a02a7cd8.jpg"
-                  },
-                  {
-                    "name": "Plate of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c55215a17b3a589238efcd36d0dd6d17.jpg"
-                  },
-                  {
-                    "name": "Greaves of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d697712aa95cfabb17706f61d8f2ae53.jpg"
-                  },
-                  {
-                    "name": "Mark of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7609813b2fdfd2754085a42d6edf7e01.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Mask of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a4e1244f32dec96664704b7e5453afca.jpg"
-                  },
-                  {
-                    "name": "Grips of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9b6d1130c9e9fe72a3892777bacbdf5.jpg"
-                  },
-                  {
-                    "name": "Vest of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/70e11b43f60a50f76263259a5568a723.jpg"
-                  },
-                  {
-                    "name": "Strides of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a990d4b2cc05d6a3e70642051058cb71.jpg"
-                  },
-                  {
-                    "name": "Cloak of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/bbd4b87914cf175225601344d9ff96db.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Yet Another Jumping Puzzle",
-          "description": "Continue making your way to the next encounter",
-          "dropsLoot": false,
-          "doubleLoot": false,
-          "loot": null
-        },
-        {
-          "title": "Morgeth, The Spirekeeper",
-          "description": "Defeat Morgeth. Collect the Taken Strength that spawns around the area and also kill the Eye of Rivens. Once all the Taken Strength's are gathered you'll be able to start damage phase",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "The Supremacy",
-                "type": "Sniper Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/352aeb7d50265f45109145531376a026.jpg"
-              },
-              {
-                "name": "Techeun Force",
-                "type": "Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a134d02024d456f77ac7d7aa706efd5d.jpg"
-              },
-              {
-                "name": "Nation of Beasts",
-                "type": "Hand Cannon",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c1c0a3fe84fb29035ef5b2646a22524.jpg"
-              },
-              {
-                "name": "Chattering Bone",
-                "type": "Pulse Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1e8c9b33875a0ff693f421322ddd351.jpg"
-              },
-              {
-                "name": "Transfiguration",
-                "type": "Scout Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fe9577ebda2acce6f71dd2ec7c6b181.jpg"
-              },
-              {
-                "name": "Age-Old Bond",
-                "type": "Auto Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/50b14cd27896db21c70efd7016e2ee73.jpg"
-              },
-              {
-                "name": "Tyranny of Heaven",
-                "type": "Bow",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e54c45d7a77c3fce2b0512fbdf334889.jpg"
-              },
-              {
-                "name": "Apex Predator",
-                "type": "Rocket Launcher",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c5acac3b019d28df78741ca29939d942.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Hood of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b70e19e236a3cfd0fc762be6f2d226d9.jpg"
-                  },
-                  {
-                    "name": "Gloves of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b08bfd901f9c788446d67ec4607d3e32.jpg"
-                  },
-                  {
-                    "name": "Robes of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/25e8f12ce9b0af46729f9fffab61354e.jpg"
-                  },
-                  {
-                    "name": "Boots of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/12c245ed68e4e54cc2a32068841af991.jpg"
-                  },
-                  {
-                    "name": "Bond of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c08626452bfa9dea97bc034fd866b5c1.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Helm of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c9ff2846a1474f315305e4f9bc413b2e.jpg"
-                  },
-                  {
-                    "name": "Gauntlets of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d26046beae521b3ee4770e84a02a7cd8.jpg"
-                  },
-                  {
-                    "name": "Plate of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c55215a17b3a589238efcd36d0dd6d17.jpg"
-                  },
-                  {
-                    "name": "Greaves of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d697712aa95cfabb17706f61d8f2ae53.jpg"
-                  },
-                  {
-                    "name": "Mark of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7609813b2fdfd2754085a42d6edf7e01.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Mask of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a4e1244f32dec96664704b7e5453afca.jpg"
-                  },
-                  {
-                    "name": "Grips of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9b6d1130c9e9fe72a3892777bacbdf5.jpg"
-                  },
-                  {
-                    "name": "Vest of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/70e11b43f60a50f76263259a5568a723.jpg"
-                  },
-                  {
-                    "name": "Strides of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a990d4b2cc05d6a3e70642051058cb71.jpg"
-                  },
-                  {
-                    "name": "Cloak of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/bbd4b87914cf175225601344d9ff96db.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "The Vault",
-          "description": "Open the Vault. Stand on the plates to reveal the symbols in the center and find the duplicates. You will also need to kill an Eye of Riven to collect it's Taken Essence that you will need to cleanse a plate. A Might of Riven will also spawn that can wipe your team should he get to the plate, so kill him. Repeat the process until all plates are cleansed",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "The Supremacy",
-                "type": "Sniper Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/352aeb7d50265f45109145531376a026.jpg"
-              },
-              {
-                "name": "Techeun Force",
-                "type": "Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a134d02024d456f77ac7d7aa706efd5d.jpg"
-              },
-              {
-                "name": "Nation of Beasts",
-                "type": "Hand Cannon",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c1c0a3fe84fb29035ef5b2646a22524.jpg"
-              },
-              {
-                "name": "Chattering Bone",
-                "type": "Pulse Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1e8c9b33875a0ff693f421322ddd351.jpg"
-              },
-              {
-                "name": "Transfiguration",
-                "type": "Scout Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fe9577ebda2acce6f71dd2ec7c6b181.jpg"
-              },
-              {
-                "name": "Age-Old Bond",
-                "type": "Auto Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/50b14cd27896db21c70efd7016e2ee73.jpg"
-              },
-              {
-                "name": "Tyranny of Heaven",
-                "type": "Bow",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e54c45d7a77c3fce2b0512fbdf334889.jpg"
-              },
-              {
-                "name": "Apex Predator",
-                "type": "Rocket Launcher",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c5acac3b019d28df78741ca29939d942.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Hood of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b70e19e236a3cfd0fc762be6f2d226d9.jpg"
-                  },
-                  {
-                    "name": "Gloves of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b08bfd901f9c788446d67ec4607d3e32.jpg"
-                  },
-                  {
-                    "name": "Robes of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/25e8f12ce9b0af46729f9fffab61354e.jpg"
-                  },
-                  {
-                    "name": "Boots of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/12c245ed68e4e54cc2a32068841af991.jpg"
-                  },
-                  {
-                    "name": "Bond of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c08626452bfa9dea97bc034fd866b5c1.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Helm of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c9ff2846a1474f315305e4f9bc413b2e.jpg"
-                  },
-                  {
-                    "name": "Gauntlets of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d26046beae521b3ee4770e84a02a7cd8.jpg"
-                  },
-                  {
-                    "name": "Plate of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c55215a17b3a589238efcd36d0dd6d17.jpg"
-                  },
-                  {
-                    "name": "Greaves of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d697712aa95cfabb17706f61d8f2ae53.jpg"
-                  },
-                  {
-                    "name": "Mark of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7609813b2fdfd2754085a42d6edf7e01.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Mask of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a4e1244f32dec96664704b7e5453afca.jpg"
-                  },
-                  {
-                    "name": "Grips of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9b6d1130c9e9fe72a3892777bacbdf5.jpg"
-                  },
-                  {
-                    "name": "Vest of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/70e11b43f60a50f76263259a5568a723.jpg"
-                  },
-                  {
-                    "name": "Strides of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a990d4b2cc05d6a3e70642051058cb71.jpg"
-                  },
-                  {
-                    "name": "Cloak of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/bbd4b87914cf175225601344d9ff96db.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Riven of a Thousand Voices",
-          "description": "Defeat Riven. In one room, collect Taken Essence by killing the Eye of Riven and then cleansing the correct symbol around the room with it. In the other room, damage Riven's tentacles/mouth until she flinches then two of her eyes will be glowing, remember them. The rooms will then switch objectives and now the room that has Riven will need to damage her mouth and shoot out the exact eyes that were glowing before. Repeat this process until you get back to the throne room. You'll keep flinching Riven and each time two of her eyes will be glowing, for a total of 6 eyes that you'll have to remember. Shoot Riven's mouth once it opens and then shoot out all 6 eyes that previously were glowing. If you didn't damage her enough, you'll do this entire process all over again. If you did, you'll be teleported to a jumping puzzle. Reach the top, grab the Taken Essence, and you'll be teleported back to the throne room. This is the final stand to kill Riven, but not really. Once you defeated her, run into her mouth and destroy her heart to finally complete this encounter",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "The Supremacy",
-                "type": "Sniper Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/352aeb7d50265f45109145531376a026.jpg"
-              },
-              {
-                "name": "Techeun Force",
-                "type": "Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a134d02024d456f77ac7d7aa706efd5d.jpg"
-              },
-              {
-                "name": "Nation of Beasts",
-                "type": "Hand Cannon",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c1c0a3fe84fb29035ef5b2646a22524.jpg"
-              },
-              {
-                "name": "Chattering Bone",
-                "type": "Pulse Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1e8c9b33875a0ff693f421322ddd351.jpg"
-              },
-              {
-                "name": "Transfiguration",
-                "type": "Scout Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fe9577ebda2acce6f71dd2ec7c6b181.jpg"
-              },
-              {
-                "name": "Age-Old Bond",
-                "type": "Auto Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/50b14cd27896db21c70efd7016e2ee73.jpg"
-              },
-              {
-                "name": "Tyranny of Heaven",
-                "type": "Bow",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e54c45d7a77c3fce2b0512fbdf334889.jpg"
-              },
-              {
-                "name": "Apex Predator",
-                "type": "Rocket Launcher",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c5acac3b019d28df78741ca29939d942.jpg"
-              }
-            ],
-            "armor": [
-              {
-                "character": "Warlock",
-                "items": [
-                  {
-                    "name": "Hood of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b70e19e236a3cfd0fc762be6f2d226d9.jpg"
-                  },
-                  {
-                    "name": "Gloves of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b08bfd901f9c788446d67ec4607d3e32.jpg"
-                  },
-                  {
-                    "name": "Robes of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/25e8f12ce9b0af46729f9fffab61354e.jpg"
-                  },
-                  {
-                    "name": "Boots of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/12c245ed68e4e54cc2a32068841af991.jpg"
-                  },
-                  {
-                    "name": "Bond of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c08626452bfa9dea97bc034fd866b5c1.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Titan",
-                "items": [
-                  {
-                    "name": "Helm of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c9ff2846a1474f315305e4f9bc413b2e.jpg"
-                  },
-                  {
-                    "name": "Gauntlets of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d26046beae521b3ee4770e84a02a7cd8.jpg"
-                  },
-                  {
-                    "name": "Plate of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c55215a17b3a589238efcd36d0dd6d17.jpg"
-                  },
-                  {
-                    "name": "Greaves of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d697712aa95cfabb17706f61d8f2ae53.jpg"
-                  },
-                  {
-                    "name": "Mark of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7609813b2fdfd2754085a42d6edf7e01.jpg"
-                  }
-                ]
-              },
-              {
-                "character": "Hunter",
-                "items": [
-                  {
-                    "name": "Mask of the Great Hunt",
-                    "type": "Helmet",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a4e1244f32dec96664704b7e5453afca.jpg"
-                  },
-                  {
-                    "name": "Grips of the Great Hunt",
-                    "type": "Arms",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9b6d1130c9e9fe72a3892777bacbdf5.jpg"
-                  },
-                  {
-                    "name": "Vest of the Great Hunt",
-                    "type": "Chest",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/70e11b43f60a50f76263259a5568a723.jpg"
-                  },
-                  {
-                    "name": "Strides of the Great Hunt",
-                    "type": "Legs",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a990d4b2cc05d6a3e70642051058cb71.jpg"
-                  },
-                  {
-                    "name": "Cloak of the Great Hunt",
-                    "type": "Class Item",
-                    "iconPath": "https://www.bungie.net/common/destiny2_content/icons/bbd4b87914cf175225601344d9ff96db.jpg"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title": "Riven's Heart",
-          "description": "Flee with Riven's heart. One chosen player will pick up the heart first and continue forward. Once the player's time runs out, they will be teleported to another area and the next chosen player will have to pick up the heart. The players that are in the other area must clear ads and collect the beams of light when the timer gets low to extend the player's time who is carrying the heart. You will continue this process making your way back thru the raid until you reach the offering plate",
-          "dropsLoot": true,
-          "doubleLoot": false,
-          "loot": {
-            "weapons": [
-              {
-                "name": "One Thousand Voices",
-                "type": "Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0421f2a3fdff6fd946f7e20951b08876.jpg",
-                "isExotic": true
-              },
-              {
-                "name": "The Supremacy",
-                "type": "Sniper Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/352aeb7d50265f45109145531376a026.jpg"
-              },
-              {
-                "name": "Techeun Force",
-                "type": "Fusion Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a134d02024d456f77ac7d7aa706efd5d.jpg"
-              },
-              {
-                "name": "Nation of Beasts",
-                "type": "Hand Cannon",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c1c0a3fe84fb29035ef5b2646a22524.jpg"
-              },
-              {
-                "name": "Chattering Bone",
-                "type": "Pulse Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1e8c9b33875a0ff693f421322ddd351.jpg"
-              },
-              {
-                "name": "Transfiguration",
-                "type": "Scout Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fe9577ebda2acce6f71dd2ec7c6b181.jpg"
-              },
-              {
-                "name": "Age-Old Bond",
-                "type": "Auto Rifle",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/50b14cd27896db21c70efd7016e2ee73.jpg"
-              },
-              {
-                "name": "Tyranny of Heaven",
-                "type": "Bow",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e54c45d7a77c3fce2b0512fbdf334889.jpg"
-              },
-              {
-                "name": "Apex Predator",
-                "type": "Rocket Launcher",
-                "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c5acac3b019d28df78741ca29939d942.jpg"
-              }
-            ],
-            "armor": []
-          }
+        ]
+      }
+    ],
+    "encounters": [
+      {
+        "title": "Open the Vault",
+        "description": "Open the door to the Vault of Glass. Hold each of the three plates while defeating enemies before they reach them until the door opens",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "Jumping Puzzle",
+        "description": "Work your way down to the next encounter",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "Confluxes",
+        "description": "Defend the Confluxes. Kill all the enemies before they reach them and sacrifice themselves to the confluxes. You'll have three waves of encounters with 1, then 2, and then lastly 3 confluxes to defend",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Vision of Confluence",
+              "type": "Scout Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4cce87fa4cf87557b85b309ab076e683.jpg"
+            },
+            {
+              "name": "Found Verdict",
+              "type": "Shotgun",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6c7e59b0e5c6b90e025dc678dd797b43.jpg"
+            },
+            {
+              "name": "Corrective Measure",
+              "type": "Machine Gun",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/66779d36157e9e39a27c13da065845d8.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Gloves of the Hezen Lords",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/48fd0d650c30ba3df5871f2550b3e678.jpg"
+                },
+                {
+                  "name": "Fragment of the Prime",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/3780d3badf5caa1790df838db9740920.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Kabr's Brazen Grips",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0b3842f117af58e85220028159018c01.jpg"
+                },
+                {
+                  "name": "Light of the Great Prism",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6d0fb19c57a0ad6fe6ef97ff454e8a70.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Prime Zealot Gloves",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b10433e277d029a3be1da9eca035939d.jpg"
+                },
+                {
+                  "name": "Shattered Vault Cloak",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/80ce9b3571dd73d1149bf1ce6cfc6d4a.jpg"
+                }
+              ]
+            }
+          ]
         }
-      ]
-    }
-  ]
-}
+      },
+      {
+        "title": "Oracles",
+        "description": "Destroy the oracles. The oracles will spawn twice around the area in a certain order. The first time they spawn will be to denote the order they spawn in, then the second time is to destroy them in that exact order. You'll have five waves here first with 3 oracles, then 4, then 5, then 6, and finally 7",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Vision of Confluence",
+              "type": "Scout Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4cce87fa4cf87557b85b309ab076e683.jpg"
+            },
+            {
+              "name": "Found Verdict",
+              "type": "Shotgun",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6c7e59b0e5c6b90e025dc678dd797b43.jpg"
+            },
+            {
+              "name": "Praedyth's Revenge",
+              "type": "Sniper Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/8597b717d15cf9a7e8d3d426310d72fa.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Gloves of the Hezen Lords",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/48fd0d650c30ba3df5871f2550b3e678.jpg"
+                },
+                {
+                  "name": "Tread of the Hezen Lords",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1852ebee22d3f9c5860458b52204b22.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Kabr's Brazen Grips",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0b3842f117af58e85220028159018c01.jpg"
+                },
+                {
+                  "name": "Kabr's Forceful Greaves",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7f6f8cf7c0ad53472b5f948c84505ffb.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Prime Zealot Gloves",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b10433e277d029a3be1da9eca035939d.jpg"
+                },
+                {
+                  "name": "Prime Zealot Strides",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/9523a4de3f47699dada6c4d40e3a04ba.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Templar",
+        "description": "Kill the Templar. Destory the oracles in the correct order they spawn in at, then you take down the Templar's shield with the Relic to begin damage. He'll relocate and spawn somewhere else around the area which can be blocked by standing in the ring he is about to spawn at. If you do not get there in time, you'll have to repeat the process to start dealing damage again",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Vision of Confluence",
+              "type": "Scout Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/4cce87fa4cf87557b85b309ab076e683.jpg"
+            },
+            {
+              "name": "Fatebringer",
+              "type": "Hand Cannon",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5283e5bc7bc82b376cfe910b50caa996.jpg"
+            },
+            {
+              "name": "Corrective Measure",
+              "type": "Machine Gun",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/66779d36157e9e39a27c13da065845d8.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Gloves of the Hezen Lords",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/48fd0d650c30ba3df5871f2550b3e678.jpg"
+                },
+                {
+                  "name": "Cuirass Hezen Lords",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/9d95e0f1c3bdb1b9e248b80b1e263dec.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Kabr's Brazen Grips",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0b3842f117af58e85220028159018c01.jpg"
+                },
+                {
+                  "name": "Kabr's Forceful Greaves",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7b14ea1c5f3c318c3b9e9464f98b7c7c.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Prime Zealot Gloves",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b10433e277d029a3be1da9eca035939d.jpg"
+                },
+                {
+                  "name": "Prime Zealot Cuirass",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/87f12e5741ef5cfb1f5af76e3869ba29.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Gorgon's Labyrinth",
+        "description": "Get passed the Gorgon's without being spotted. If you get spotted, they will enrage and wipe the team",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "Another Jumping Puzzle",
+        "description": "Platform your way to the final encounter",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "Gatekeeper",
+        "description": "Defened the pillars. Open the portals by standing on the plates. Once they're open, prevent the Vex from sacrificing themselves to the pillars inside each of the portals. You'll need the Relic to remove the Praetorian's shield and defeat them. Keep doing this until a conflux spawns in the center of the area and then continue to defend it",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Found Verdict",
+              "type": "Shotgun",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6c7e59b0e5c6b90e025dc678dd797b43.jpg"
+            },
+            {
+              "name": "Fatebringer",
+              "type": "Hand Cannon",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5283e5bc7bc82b376cfe910b50caa996.jpg"
+            },
+            {
+              "name": "Hezen Vengeance",
+              "type": "Rocket Launcher",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/8606ba12832e76ed4fdf438b06ce9865.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Facade of the Hezen Lords",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/07113b0be5a0060d2ff2af9fcfe79c78.jpg"
+                },
+                {
+                  "name": "Tread of the Hezen Lords",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1852ebee22d3f9c5860458b52204b22.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Kabr's Battlecage",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c77d5d00f5d8df13c870bd6d47a801a4.jpg"
+                },
+                {
+                  "name": "Kabr's Forceful Greaves",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7f6f8cf7c0ad53472b5f948c84505ffb.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Prime Zealot Mask",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6c9ed2a1cfff85c5b215d52e1e5f2d04.jpg"
+                },
+                {
+                  "name": "Prime Zealot Strides",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/9523a4de3f47699dada6c4d40e3a04ba.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Atheon, Time's Conflux",
+        "description": "Defeat Atheon. Three players randomly will be teleported to another area, and the others will stay in the main area. The players in the main area must open the portal to where the others are. The ones who were teleported must shoot the oracles in the order the players in the main area see them at. Once thats done correclty three times, the portal will open and the players who were teleported can come back to the main area and start damage on Atheon",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Vex Mythoclast",
+              "type": "Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/197c07b3ecad29aadf67c1c06bf0b0be.jpg",
+              "isExotic": true
+            },
+            {
+              "name": "Praedyth's Revenge",
+              "type": "Sniper Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/8597b717d15cf9a7e8d3d426310d72fa.jpg"
+            },
+            {
+              "name": "Corrective Measure",
+              "type": "Machine Gun",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/66779d36157e9e39a27c13da065845d8.jpg"
+            },
+            {
+              "name": "Hezen Vengeance",
+              "type": "Rocket Launcher",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/8606ba12832e76ed4fdf438b06ce9865.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Facade of the Hezen Lords",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/07113b0be5a0060d2ff2af9fcfe79c78.jpg"
+                },
+                {
+                  "name": "Cuirass Hezen Lords",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/9d95e0f1c3bdb1b9e248b80b1e263dec.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Kabr's Battlecage",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c77d5d00f5d8df13c870bd6d47a801a4.jpg"
+                },
+                {
+                  "name": "Kabr's Forceful Greaves",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7b14ea1c5f3c318c3b9e9464f98b7c7c.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Prime Zealot Mask",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6c9ed2a1cfff85c5b215d52e1e5f2d04.jpg"
+                },
+                {
+                  "name": "Prime Zealot Cuirass",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/87f12e5741ef5cfb1f5af76e3869ba29.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Garden of Salvation",
+    "location": "Black Garden // The Moon",
+    "description": "The Garden calls out to you",
+    "image": "https://www.bungie.net/img/destiny_content/pgcr/raid_garden_of_salvation.jpg",
+    "modes": [
+      {
+        "type": "Minimum",
+        "recommendedLightLevel": "1350"
+      }
+    ],
+    "extraRewards": [
+      {
+        "title": "Hidden Chests",
+        "description": "There are two hidden chests that award anything you've already acquired"
+      }
+    ],
+    "modifiers": [],
+    "encounters": [
+      {
+        "title": "Evade the Consecrated Mind",
+        "description": "Evade the boss. Gather Voltaic Overflow from the boss as it moves from one area to the next by tethering from the pillars to the shields while also killing the Angelic's to open the next area. The last area will be filled with ads so full sprint to the end",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Accrued Redemption",
+              "type": "Bow",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a20262c1f729ffdb8ef59bf503c02f6a.jpg"
+            },
+            {
+              "name": "Zealot's Reward",
+              "type": "Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/250326e52cc19d03f85ffe0ac3a63d9b.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Boots of Ascendency",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1adeae870b221096ea74ede8820b222.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Greaves of Ascendency",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/27a1c6593cddbddfb44b4b0812445d42.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Strides of Ascendency",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/36180ed4aa52f3c13907aa62f0a289cf.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Platforming Puzzle",
+        "description": "Jump and jump your way to the next encounter",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "Summon the Consecrated Mind",
+        "description": "Defend the bases. Kill the Angelic enemies and the other enemies around each base while tethering from the pillars to the center shields to slowly bring them down. You'll need the Enlightened buff to damage the shielded enemies. Keep this going until you advance to the next encounter",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Reckless Oracle",
+              "type": "Auto Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/3463e49cd7e8f56c31512f0ba0f2ba91.jpg"
+            },
+            {
+              "name": "Prophet of Doom",
+              "type": "Shotgun",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/03d4185893475ad7f69cdb4252aff5ef.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Gloves of Exaltation",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a271d46cdc7212e9dc9fc4fe4cb1733c.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Gauntlets of Exaltation",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a252de109c290d401fc8c0e46a9e6fcc.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Strides of Exaltation",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e202e8cb1f78b6222783440763e12c60.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Defeat the Consecrated Mind",
+        "description": "Kill the Consecrated Mind. Follow the boss around to pick up the square it drops and shoot out the eyes that are lit up on it. Simultaneously defeat the Minotaurs to gather the motes they drop. Deposit those motes into one of the pillars that are lit up, then it's onto damage phase",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Sacred Provenance",
+              "type": "Pulse Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c6b1cf3919435d81d2e230add1debe7a.jpg"
+            },
+            {
+              "name": "Ancient Gospel",
+              "type": "Hand Cannon",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6c6f1619bd19789403a7a7070ba271f2.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Robes of Transcendence",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f00a32c5f7a0b4f98e118af525ad8cce.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Plate of Transcendence",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/80757085144f2fb69d1c7d3b6900f9ff.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Vest of Transcendence",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/f13edfeaef41dc02bf22e214eca137b4.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Another Platforming Puzzle",
+        "description": "Yet another platforming route to the last encounter",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "Defeat the Sanctified Mind",
+        "description": "Kill the Sanctified Mind. Collect motes from each portal that spawns in (orange and blue) by killing the enemies in that area you get transported to. Deposit those motes into the pillars in the main area while also defending the pillars from enemies. After you've gathered 30 motes on each pillar, you can tether them to the boss and start damage",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "Omniscient Eye",
+              "type": "Sniper Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/da40a396cc79b31aa1d8898ac3bedde1.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Mask of Righteousness",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b1a0af1b3b767013ca90fe5a9b78eac4.jpg"
+                },
+                {
+                  "name": "Temptation's Bond",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5bd83a99e11b523cca8d711ca654c6fe.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Helm of Righteousness",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/bc73734e3f7758941d65a22cdb4f886d.jpg"
+                },
+                {
+                  "name": "Temptation's Mark",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5aea62cc312644bccd8f6eb0e605f7c3.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Cowl of Righteousness",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/6af5abdb33799f0e4607b97b9d0741ec.jpg"
+                },
+                {
+                  "name": "Cloak of Temptation",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a1feb2d4126a6cdfeb81eb6c206d28a9.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Last Wish",
+    "location": "Reef // The Dreaming City",
+    "description": "The opportunity of a lifetime",
+    "image": "https://www.bungie.net/img/destiny_content/pgcr/raid_beanstalk.jpg",
+    "modes": [
+      {
+        "type": "Minimum",
+        "recommendedLightLevel": "1350"
+      }
+    ],
+    "extraRewards": [
+      {
+        "title": "Hidden Chests",
+        "description": "There are four hidden chests that awards random gear"
+      }
+    ],
+    "modifiers": [],
+    "encounters": [
+      {
+        "title": "Jumping Puzzle",
+        "description": "Find your way to the first encounter",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "Kalli, The Corrupted",
+        "description": "Defeat Kalli. Find the plates around the room with symbols that match the ones located in the center. Standing on the plate for a small amount of time will spawna Knight that will need to be defeated. Once all the plates are cleared, return to the center to deal damage to Kalli. Hide in the rooms in the sunken area to avoid Kalli's wipe mechanic. Rinse and repeat",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "The Supremacy",
+              "type": "Sniper Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/352aeb7d50265f45109145531376a026.jpg"
+            },
+            {
+              "name": "Techeun Force",
+              "type": "Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a134d02024d456f77ac7d7aa706efd5d.jpg"
+            },
+            {
+              "name": "Nation of Beasts",
+              "type": "Hand Cannon",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c1c0a3fe84fb29035ef5b2646a22524.jpg"
+            },
+            {
+              "name": "Chattering Bone",
+              "type": "Pulse Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1e8c9b33875a0ff693f421322ddd351.jpg"
+            },
+            {
+              "name": "Transfiguration",
+              "type": "Scout Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fe9577ebda2acce6f71dd2ec7c6b181.jpg"
+            },
+            {
+              "name": "Age-Old Bond",
+              "type": "Auto Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/50b14cd27896db21c70efd7016e2ee73.jpg"
+            },
+            {
+              "name": "Tyranny of Heaven",
+              "type": "Bow",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e54c45d7a77c3fce2b0512fbdf334889.jpg"
+            },
+            {
+              "name": "Apex Predator",
+              "type": "Rocket Launcher",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c5acac3b019d28df78741ca29939d942.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Hood of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b70e19e236a3cfd0fc762be6f2d226d9.jpg"
+                },
+                {
+                  "name": "Gloves of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b08bfd901f9c788446d67ec4607d3e32.jpg"
+                },
+                {
+                  "name": "Robes of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/25e8f12ce9b0af46729f9fffab61354e.jpg"
+                },
+                {
+                  "name": "Boots of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/12c245ed68e4e54cc2a32068841af991.jpg"
+                },
+                {
+                  "name": "Bond of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c08626452bfa9dea97bc034fd866b5c1.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Helm of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c9ff2846a1474f315305e4f9bc413b2e.jpg"
+                },
+                {
+                  "name": "Gauntlets of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d26046beae521b3ee4770e84a02a7cd8.jpg"
+                },
+                {
+                  "name": "Plate of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c55215a17b3a589238efcd36d0dd6d17.jpg"
+                },
+                {
+                  "name": "Greaves of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d697712aa95cfabb17706f61d8f2ae53.jpg"
+                },
+                {
+                  "name": "Mark of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7609813b2fdfd2754085a42d6edf7e01.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Mask of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a4e1244f32dec96664704b7e5453afca.jpg"
+                },
+                {
+                  "name": "Grips of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9b6d1130c9e9fe72a3892777bacbdf5.jpg"
+                },
+                {
+                  "name": "Vest of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/70e11b43f60a50f76263259a5568a723.jpg"
+                },
+                {
+                  "name": "Strides of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a990d4b2cc05d6a3e70642051058cb71.jpg"
+                },
+                {
+                  "name": "Cloak of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/bbd4b87914cf175225601344d9ff96db.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Another Jumping Puzzle",
+        "description": "Jump your way to the next fight",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "Shuro Chi, The Corrupted",
+        "description": "Defeat Shuro Chi. Defeat the ads leading up to Shuro Chi, collect the Eye of Riven, then stand on each of the plates around Shuro Chi and use the Eye of Riven to link everyone together to remove her shields; you can then start damaging her. Continue following Shuro Chi to the next area she spawns at the repeat the process. You'll also run into a puzzle room where players will need to stand on the corresponding plates that match the incomplete pieces of the symbol in the room",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "The Supremacy",
+              "type": "Sniper Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/352aeb7d50265f45109145531376a026.jpg"
+            },
+            {
+              "name": "Techeun Force",
+              "type": "Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a134d02024d456f77ac7d7aa706efd5d.jpg"
+            },
+            {
+              "name": "Nation of Beasts",
+              "type": "Hand Cannon",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c1c0a3fe84fb29035ef5b2646a22524.jpg"
+            },
+            {
+              "name": "Chattering Bone",
+              "type": "Pulse Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1e8c9b33875a0ff693f421322ddd351.jpg"
+            },
+            {
+              "name": "Transfiguration",
+              "type": "Scout Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fe9577ebda2acce6f71dd2ec7c6b181.jpg"
+            },
+            {
+              "name": "Age-Old Bond",
+              "type": "Auto Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/50b14cd27896db21c70efd7016e2ee73.jpg"
+            },
+            {
+              "name": "Tyranny of Heaven",
+              "type": "Bow",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e54c45d7a77c3fce2b0512fbdf334889.jpg"
+            },
+            {
+              "name": "Apex Predator",
+              "type": "Rocket Launcher",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c5acac3b019d28df78741ca29939d942.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Hood of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b70e19e236a3cfd0fc762be6f2d226d9.jpg"
+                },
+                {
+                  "name": "Gloves of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b08bfd901f9c788446d67ec4607d3e32.jpg"
+                },
+                {
+                  "name": "Robes of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/25e8f12ce9b0af46729f9fffab61354e.jpg"
+                },
+                {
+                  "name": "Boots of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/12c245ed68e4e54cc2a32068841af991.jpg"
+                },
+                {
+                  "name": "Bond of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c08626452bfa9dea97bc034fd866b5c1.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Helm of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c9ff2846a1474f315305e4f9bc413b2e.jpg"
+                },
+                {
+                  "name": "Gauntlets of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d26046beae521b3ee4770e84a02a7cd8.jpg"
+                },
+                {
+                  "name": "Plate of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c55215a17b3a589238efcd36d0dd6d17.jpg"
+                },
+                {
+                  "name": "Greaves of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d697712aa95cfabb17706f61d8f2ae53.jpg"
+                },
+                {
+                  "name": "Mark of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7609813b2fdfd2754085a42d6edf7e01.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Mask of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a4e1244f32dec96664704b7e5453afca.jpg"
+                },
+                {
+                  "name": "Grips of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9b6d1130c9e9fe72a3892777bacbdf5.jpg"
+                },
+                {
+                  "name": "Vest of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/70e11b43f60a50f76263259a5568a723.jpg"
+                },
+                {
+                  "name": "Strides of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a990d4b2cc05d6a3e70642051058cb71.jpg"
+                },
+                {
+                  "name": "Cloak of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/bbd4b87914cf175225601344d9ff96db.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Yet Another Jumping Puzzle",
+        "description": "Continue making your way to the next encounter",
+        "dropsLoot": false,
+        "doubleLoot": false,
+        "loot": null
+      },
+      {
+        "title": "Morgeth, The Spirekeeper",
+        "description": "Defeat Morgeth. Collect the Taken Strength that spawns around the area and also kill the Eye of Rivens. Once all the Taken Strength's are gathered you'll be able to start damage phase",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "The Supremacy",
+              "type": "Sniper Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/352aeb7d50265f45109145531376a026.jpg"
+            },
+            {
+              "name": "Techeun Force",
+              "type": "Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a134d02024d456f77ac7d7aa706efd5d.jpg"
+            },
+            {
+              "name": "Nation of Beasts",
+              "type": "Hand Cannon",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c1c0a3fe84fb29035ef5b2646a22524.jpg"
+            },
+            {
+              "name": "Chattering Bone",
+              "type": "Pulse Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1e8c9b33875a0ff693f421322ddd351.jpg"
+            },
+            {
+              "name": "Transfiguration",
+              "type": "Scout Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fe9577ebda2acce6f71dd2ec7c6b181.jpg"
+            },
+            {
+              "name": "Age-Old Bond",
+              "type": "Auto Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/50b14cd27896db21c70efd7016e2ee73.jpg"
+            },
+            {
+              "name": "Tyranny of Heaven",
+              "type": "Bow",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e54c45d7a77c3fce2b0512fbdf334889.jpg"
+            },
+            {
+              "name": "Apex Predator",
+              "type": "Rocket Launcher",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c5acac3b019d28df78741ca29939d942.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Hood of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b70e19e236a3cfd0fc762be6f2d226d9.jpg"
+                },
+                {
+                  "name": "Gloves of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b08bfd901f9c788446d67ec4607d3e32.jpg"
+                },
+                {
+                  "name": "Robes of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/25e8f12ce9b0af46729f9fffab61354e.jpg"
+                },
+                {
+                  "name": "Boots of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/12c245ed68e4e54cc2a32068841af991.jpg"
+                },
+                {
+                  "name": "Bond of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c08626452bfa9dea97bc034fd866b5c1.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Helm of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c9ff2846a1474f315305e4f9bc413b2e.jpg"
+                },
+                {
+                  "name": "Gauntlets of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d26046beae521b3ee4770e84a02a7cd8.jpg"
+                },
+                {
+                  "name": "Plate of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c55215a17b3a589238efcd36d0dd6d17.jpg"
+                },
+                {
+                  "name": "Greaves of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d697712aa95cfabb17706f61d8f2ae53.jpg"
+                },
+                {
+                  "name": "Mark of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7609813b2fdfd2754085a42d6edf7e01.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Mask of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a4e1244f32dec96664704b7e5453afca.jpg"
+                },
+                {
+                  "name": "Grips of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9b6d1130c9e9fe72a3892777bacbdf5.jpg"
+                },
+                {
+                  "name": "Vest of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/70e11b43f60a50f76263259a5568a723.jpg"
+                },
+                {
+                  "name": "Strides of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a990d4b2cc05d6a3e70642051058cb71.jpg"
+                },
+                {
+                  "name": "Cloak of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/bbd4b87914cf175225601344d9ff96db.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "The Vault",
+        "description": "Open the Vault. Stand on the plates to reveal the symbols in the center and find the duplicates. You will also need to kill an Eye of Riven to collect it's Taken Essence that you will need to cleanse a plate. A Might of Riven will also spawn that can wipe your team should he get to the plate, so kill him. Repeat the process until all plates are cleansed",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "The Supremacy",
+              "type": "Sniper Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/352aeb7d50265f45109145531376a026.jpg"
+            },
+            {
+              "name": "Techeun Force",
+              "type": "Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a134d02024d456f77ac7d7aa706efd5d.jpg"
+            },
+            {
+              "name": "Nation of Beasts",
+              "type": "Hand Cannon",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c1c0a3fe84fb29035ef5b2646a22524.jpg"
+            },
+            {
+              "name": "Chattering Bone",
+              "type": "Pulse Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1e8c9b33875a0ff693f421322ddd351.jpg"
+            },
+            {
+              "name": "Transfiguration",
+              "type": "Scout Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fe9577ebda2acce6f71dd2ec7c6b181.jpg"
+            },
+            {
+              "name": "Age-Old Bond",
+              "type": "Auto Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/50b14cd27896db21c70efd7016e2ee73.jpg"
+            },
+            {
+              "name": "Tyranny of Heaven",
+              "type": "Bow",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e54c45d7a77c3fce2b0512fbdf334889.jpg"
+            },
+            {
+              "name": "Apex Predator",
+              "type": "Rocket Launcher",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c5acac3b019d28df78741ca29939d942.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Hood of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b70e19e236a3cfd0fc762be6f2d226d9.jpg"
+                },
+                {
+                  "name": "Gloves of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b08bfd901f9c788446d67ec4607d3e32.jpg"
+                },
+                {
+                  "name": "Robes of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/25e8f12ce9b0af46729f9fffab61354e.jpg"
+                },
+                {
+                  "name": "Boots of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/12c245ed68e4e54cc2a32068841af991.jpg"
+                },
+                {
+                  "name": "Bond of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c08626452bfa9dea97bc034fd866b5c1.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Helm of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c9ff2846a1474f315305e4f9bc413b2e.jpg"
+                },
+                {
+                  "name": "Gauntlets of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d26046beae521b3ee4770e84a02a7cd8.jpg"
+                },
+                {
+                  "name": "Plate of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c55215a17b3a589238efcd36d0dd6d17.jpg"
+                },
+                {
+                  "name": "Greaves of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d697712aa95cfabb17706f61d8f2ae53.jpg"
+                },
+                {
+                  "name": "Mark of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7609813b2fdfd2754085a42d6edf7e01.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Mask of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a4e1244f32dec96664704b7e5453afca.jpg"
+                },
+                {
+                  "name": "Grips of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9b6d1130c9e9fe72a3892777bacbdf5.jpg"
+                },
+                {
+                  "name": "Vest of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/70e11b43f60a50f76263259a5568a723.jpg"
+                },
+                {
+                  "name": "Strides of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a990d4b2cc05d6a3e70642051058cb71.jpg"
+                },
+                {
+                  "name": "Cloak of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/bbd4b87914cf175225601344d9ff96db.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Riven of a Thousand Voices",
+        "description": "Defeat Riven. In one room, collect Taken Essence by killing the Eye of Riven and then cleansing the correct symbol around the room with it. In the other room, damage Riven's tentacles/mouth until she flinches then two of her eyes will be glowing, remember them. The rooms will then switch objectives and now the room that has Riven will need to damage her mouth and shoot out the exact eyes that were glowing before. Repeat this process until you get back to the throne room. You'll keep flinching Riven and each time two of her eyes will be glowing, for a total of 6 eyes that you'll have to remember. Shoot Riven's mouth once it opens and then shoot out all 6 eyes that previously were glowing. If you didn't damage her enough, you'll do this entire process all over again. If you did, you'll be teleported to a jumping puzzle. Reach the top, grab the Taken Essence, and you'll be teleported back to the throne room. This is the final stand to kill Riven, but not really. Once you defeated her, run into her mouth and destroy her heart to finally complete this encounter",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "The Supremacy",
+              "type": "Sniper Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/352aeb7d50265f45109145531376a026.jpg"
+            },
+            {
+              "name": "Techeun Force",
+              "type": "Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a134d02024d456f77ac7d7aa706efd5d.jpg"
+            },
+            {
+              "name": "Nation of Beasts",
+              "type": "Hand Cannon",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c1c0a3fe84fb29035ef5b2646a22524.jpg"
+            },
+            {
+              "name": "Chattering Bone",
+              "type": "Pulse Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1e8c9b33875a0ff693f421322ddd351.jpg"
+            },
+            {
+              "name": "Transfiguration",
+              "type": "Scout Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fe9577ebda2acce6f71dd2ec7c6b181.jpg"
+            },
+            {
+              "name": "Age-Old Bond",
+              "type": "Auto Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/50b14cd27896db21c70efd7016e2ee73.jpg"
+            },
+            {
+              "name": "Tyranny of Heaven",
+              "type": "Bow",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e54c45d7a77c3fce2b0512fbdf334889.jpg"
+            },
+            {
+              "name": "Apex Predator",
+              "type": "Rocket Launcher",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c5acac3b019d28df78741ca29939d942.jpg"
+            }
+          ],
+          "armor": [
+            {
+              "character": "Warlock",
+              "items": [
+                {
+                  "name": "Hood of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b70e19e236a3cfd0fc762be6f2d226d9.jpg"
+                },
+                {
+                  "name": "Gloves of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b08bfd901f9c788446d67ec4607d3e32.jpg"
+                },
+                {
+                  "name": "Robes of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/25e8f12ce9b0af46729f9fffab61354e.jpg"
+                },
+                {
+                  "name": "Boots of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/12c245ed68e4e54cc2a32068841af991.jpg"
+                },
+                {
+                  "name": "Bond of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c08626452bfa9dea97bc034fd866b5c1.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Titan",
+              "items": [
+                {
+                  "name": "Helm of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c9ff2846a1474f315305e4f9bc413b2e.jpg"
+                },
+                {
+                  "name": "Gauntlets of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d26046beae521b3ee4770e84a02a7cd8.jpg"
+                },
+                {
+                  "name": "Plate of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c55215a17b3a589238efcd36d0dd6d17.jpg"
+                },
+                {
+                  "name": "Greaves of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/d697712aa95cfabb17706f61d8f2ae53.jpg"
+                },
+                {
+                  "name": "Mark of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/7609813b2fdfd2754085a42d6edf7e01.jpg"
+                }
+              ]
+            },
+            {
+              "character": "Hunter",
+              "items": [
+                {
+                  "name": "Mask of the Great Hunt",
+                  "type": "Helmet",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a4e1244f32dec96664704b7e5453afca.jpg"
+                },
+                {
+                  "name": "Grips of the Great Hunt",
+                  "type": "Arms",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/b9b6d1130c9e9fe72a3892777bacbdf5.jpg"
+                },
+                {
+                  "name": "Vest of the Great Hunt",
+                  "type": "Chest",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/70e11b43f60a50f76263259a5568a723.jpg"
+                },
+                {
+                  "name": "Strides of the Great Hunt",
+                  "type": "Legs",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a990d4b2cc05d6a3e70642051058cb71.jpg"
+                },
+                {
+                  "name": "Cloak of the Great Hunt",
+                  "type": "Class Item",
+                  "iconPath": "https://www.bungie.net/common/destiny2_content/icons/bbd4b87914cf175225601344d9ff96db.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Riven's Heart",
+        "description": "Flee with Riven's heart. One chosen player will pick up the heart first and continue forward. Once the player's time runs out, they will be teleported to another area and the next chosen player will have to pick up the heart. The players that are in the other area must clear ads and collect the beams of light when the timer gets low to extend the player's time who is carrying the heart. You will continue this process making your way back thru the raid until you reach the offering plate",
+        "dropsLoot": true,
+        "doubleLoot": false,
+        "loot": {
+          "weapons": [
+            {
+              "name": "One Thousand Voices",
+              "type": "Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0421f2a3fdff6fd946f7e20951b08876.jpg",
+              "isExotic": true
+            },
+            {
+              "name": "The Supremacy",
+              "type": "Sniper Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/352aeb7d50265f45109145531376a026.jpg"
+            },
+            {
+              "name": "Techeun Force",
+              "type": "Fusion Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/a134d02024d456f77ac7d7aa706efd5d.jpg"
+            },
+            {
+              "name": "Nation of Beasts",
+              "type": "Hand Cannon",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/5c1c0a3fe84fb29035ef5b2646a22524.jpg"
+            },
+            {
+              "name": "Chattering Bone",
+              "type": "Pulse Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c1e8c9b33875a0ff693f421322ddd351.jpg"
+            },
+            {
+              "name": "Transfiguration",
+              "type": "Scout Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/0fe9577ebda2acce6f71dd2ec7c6b181.jpg"
+            },
+            {
+              "name": "Age-Old Bond",
+              "type": "Auto Rifle",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/50b14cd27896db21c70efd7016e2ee73.jpg"
+            },
+            {
+              "name": "Tyranny of Heaven",
+              "type": "Bow",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/e54c45d7a77c3fce2b0512fbdf334889.jpg"
+            },
+            {
+              "name": "Apex Predator",
+              "type": "Rocket Launcher",
+              "iconPath": "https://www.bungie.net/common/destiny2_content/icons/c5acac3b019d28df78741ca29939d942.jpg"
+            }
+          ],
+          "armor": []
+        }
+      }
+    ]
+  }
+]
