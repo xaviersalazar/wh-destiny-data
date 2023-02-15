@@ -1,14 +1,14 @@
 [
   {
     "name": "Nightmare of Phogoth",
-    "collectibleHashes": ["3844835635"]
+    "collectibleHashes": ["3844835635", "3016392134"]
   },
   {
     "name": "Nightmare of Taniks",
-    "collectibleHashes": ["935628460"]
+    "collectibleHashes": ["935628460", "3016392134"]
   },
   {
     "name": "Nightmare of Zydron",
-    "collectibleHashes": ["651531704"]
+    "collectibleHashes": ["651531704", "3016392134"]
   }
 ]
